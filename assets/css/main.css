@@ -2734,3 +2734,10 @@ img.profile {
 	padding: 30px;
 	border: 5px solid #222835;
 }
+
+#logo {
+	position: relative;
+	bottom: 50px;
+	font-size: 1.5em;
+	color: white;
+}
