@@ -2688,3 +2688,40 @@
 						}
 
 	}
+	
+	
+/* Additional CSS */ 
+
+.block {
+	width: 90%;
+	display: inline-block;
+	position: relative;
+	left: 5%;
+	margin-bottom: 50px;
+}
+
+.profile-block {
+	width: 33%;
+	margin-right: 50px;
+	display: inline-block;
+
+}
+
+img.profile {
+	width: 100%;
+	border-radius: 50%;
+	
+}
+
+.profile-title {
+	font-size: 1.3em;
+}
+
+.profile-content {
+	width: 60%;
+	background-color: #DDDDDD;
+	color: #555555;
+	display: inline-block;
+	border-radius: 20px;
+	padding: 20px;
+}
