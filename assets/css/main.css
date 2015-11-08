@@ -2725,3 +2725,12 @@ img.profile {
 	border-radius: 20px;
 	padding: 20px;
 }
+
+.content-block {
+	width: 90%;
+	position: relative;
+	left: 0px;
+	border-radius: 30px;
+	padding: 30px;
+	border: 5px solid #222835;
+}
