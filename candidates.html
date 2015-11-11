@@ -13,6 +13,13 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 	</head>
+	<script>
+		$( document ).ready(function() {
+			$(".bioClick").onClick(function(){
+				$(this).parent().class(".bio").toggle();
+			});
+		});
+	</script>
 	<body class="no-sidebar">
 		<div id="page-wrapper">
 
@@ -51,7 +58,9 @@
 					<div id="main" class="container">
 
 						<!-- Content -->
-							<div id="content">
+							<div id="content" align="center">
+								<p id="head"><i>LETTERS from the Candidates:</i></p>
+								<hr>
 								<div class = "block">
 									<div class="profile-block">
 										<img class="profile" src="images/greenlaw.jpg">
@@ -60,21 +69,17 @@
 										</div>
 									</div>
 									<div class = "profile-content">
-										<p>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget.
-											odio eleifend. Duis commodo fringilla commodo. Aliquam erat volutpat. Vestibulum
-											facilisis leo magna. Cras sit amet urna eros, id egestas urna. Quisque aliquam
-											tempus euismod. Vestibulum ante ipsum primis in faucibus.</p>
-											<p>Phasellus nisl nisl, varius id porttitor sed, pellentesque ac orci. Pellentesque
-											habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi
-											bibendum justo sed mauris vehicula malesuada aliquam elit imperdiet. Aliquam eu nibh
-											lorem, eget gravida mi. Duis odio diam, luctus et vulputate vitae, vehicula ac dolor.
-											Pellentesque at urna eget tellus lobortis ultrices sed non erat. Donec eget erat non
-											magna volutpat malesuada quis eget eros. Nullam sodales cursus sapien, id consequat
-											leo suscipit ut. Praesent id turpis vitae turpis pretium ultricies. Vestibulum sit
-											amet risus elit.</p>
+										<!-- <div class = "bioClick">click here</div> -->
+										<!-- <div class="bio"> -->
+											<p>As a first generation student, growing up with friends often better offer than me, I was grateful to have support as a student and as a person from my town’s community and my school. And so when I got to Harvard, I wanted to make sure that I could put myself in a position where I could lend a helping hand to students having a difficult time adjusting, having a tough time navigating the system, and having a challenging experience at school, for reasons that aren’t always in their control.</p>
+												<p>I’m a Junior living in Pforzheimer House, where I was silver level dancer on the Harvard Ballroom Dance Team, an attorney and witness for the Mock Trial Team, and I’m the Vice President of the Voice Actors Guild, where I’m in charge of all Scooby-Doo and Barack Obama impressions. I’ve also been Pfoho’s UC rep for a year and a half.</p>
+											<p>When I joined the UC last year, it was because I wanted to help students, and that hasn’t changed at all. In the past, I haven’t been asleep on the issues. I’ve been at the front of the pack on the UC when it comes to student group funding:  I repealed a rule that prevent organizations from receiving the amount of money they need for an awareness campaign and I repealed a rule that prevented student groups from receiving grants for HUPD and venue fees. I even met with over a dozen student organizations personally to train them in the UC grant process, resulting in thousands of dollars in investment for clubs on campus, including large parties, benefitting students far and wide. So when William Morris and I commit to using UC funding to make our plans work, we’ll get it done.</p>
+											<p>And when it comes to sexual assault on campus, I helped take the lead on the UC’s Side by Side gender equality initiative, as well as serve on the President’s Task Force on Sexual Assault. And in that work, I’ve fought and lobbied for affirmative consent training for sophomores and student organizations, and the Administration has been receptive so far. Whenever William Morris and I have spoken with administrators, we’ve gotten results, and we don’t want to stop now.</p>
+											<p>And right now, we’re on campus at unique moment where sexual assault, social spaces, and mental health are all being talked about at the same time, and people want change. I worry that if we don’t seize this moment when we have everyone’s attention, we’ll get complacent again until something else upsetting happens. If elected, Will Morris and I want to lead the UC to make sure these issues stay in the forefront because we can’t afford to take steps backward.</p>
+										<!-- </div> -->
 									</div>
 								</div>
-								
+							
 								<div class = "block">
 									<div class="profile-block">
 										<img class="profile" src="images/morris.jpg">
@@ -83,20 +88,12 @@
 										</div>
 									</div>
 									<div class = "profile-content">
-										<p>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget.
-											odio eleifend. Duis commodo fringilla commodo. Aliquam erat volutpat. Vestibulum
-											facilisis leo magna. Cras sit amet urna eros, id egestas urna. Quisque aliquam
-											tempus euismod. Vestibulum ante ipsum primis in faucibus.</p>
-											<p>Phasellus nisl nisl, varius id porttitor sed, pellentesque ac orci. Pellentesque
-											habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi
-											bibendum justo sed mauris vehicula malesuada aliquam elit imperdiet. Aliquam eu nibh
-											lorem, eget gravida mi. Duis odio diam, luctus et vulputate vitae, vehicula ac dolor.
-											Pellentesque at urna eget tellus lobortis ultrices sed non erat. Donec eget erat non
-											magna volutpat malesuada quis eget eros. Nullam sodales cursus sapien, id consequat
-											leo suscipit ut. Praesent id turpis vitae turpis pretium ultricies. Vestibulum sit
-											amet risus elit.</p>
+										<p>Harvard has been my dream for as long as I can remember. My dad tells me that when I was five years old, I asked him what the best school in the world was. He responded, “Harvard. That’s where you want to go if you want to change the world.” Apparently, I told him, “Alright, then I’m going to Harvard.” Despite never knowing someone who had been to Harvard, and never having gone to Harvard, the idea of our school became my dream from then until I received my admissions letter. The day I got the letter was one of the happiest days of my life. A month after I got to Harvard my freshman year, I wanted to transfer. This school was nothing like I had expected it to be. It is so unlike my highschool, a public school in Northeast Georgia. It felt like Harvard’s campus was fractured, there is very little school spirit, and like there was some sort of mutual understanding that Harvard is a stepping stone to later life, not something that can be understood in its own right. I’m glad I stayed. Despite the alienation and culture shock that I felt much of my freshmen year, I have had some unforgettable experiences in my two and a half years hear. More importantly, I have made the best friends that I’ve ever had with some of the most talented and passionate individuals in the world. I love Harvard, particularly Harvard's Student Body, and that’s why I want it to do better. </p>
+											<p>This school has failed to live up to its potential, and I believe that for it to do so, we need a student government that advocates for the needs of student body, rather than being content with the status quo. I have never been in the UC. If I did not know that massive improvements can come through the student government, I would not be running to be UC Vice President. But these changes can happen. I believe that if student leadership taps into the student body’s ideas, passion, and deep feelings discontent, we can work with the administration to make Harvard a better place for everyone. The school is currently going through an unprecedented amount of change in a short amount of time. Huge transformations are coming to Harvard. I believe that I have what it takes to be a student leader that helps guide this change. When Will Greenlaw and I are done with our terms, I want to be able to say confidently that we will help make Harvard a better place for the next person who has dreamed about coming to Harvard her entire life, that we will help Harvard reach the potential that we all know it has.</p>
+											<p>Please join us, let us advocate for you. We will not let you down.</p>
 									</div>
 								</div>
+					
 							</div>
 
 					</div>
@@ -112,6 +109,12 @@
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
-
+			<script>
+				$(document).ready(function() {
+					$(".bioClick").click(function(){
+						$(this).parent().class(".bio").toggle();
+					});
+				});
+			</script>
 	</body>
 </html>

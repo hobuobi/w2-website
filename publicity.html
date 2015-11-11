@@ -12,9 +12,10 @@
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+	<link href='https://fonts.googleapis.com/css?family=Crimson+Text:400,700,400italic' rel='stylesheet' type='text/css'>
 	</head>
 	<body class="no-sidebar">
-		<div id="page-wrapper">
+		<div id="page-wrapper" style="background-image: url(images/background.jpg)">
 
 			<!-- Header -->
 				<div id="header-wrapper" class="wrapper">
@@ -51,7 +52,12 @@
 					<div id="main" class="container" align = "center">
 
 						<!-- Content -->
-							<a href="#" class="button style1 big">Coming Soon</a>
+							<!-- <a href="#" class="button style1 big">Coming Soon</a> -->
+							<p style="font-size:2.5em;line-height:2"><strong>SHOW YOUR SUPPORT</strong> <br />with the official William x William profile picture
+							frame! </h1>
+							<br />
+							<!-- <canvas id="canvas" width="500px" height="500px">CANVAS</canvas> -->
+							<p><a href="http://twibbon.com/support/will-for-uc?fb_ref=Default" target="_blank" class="button style1 big">CHANGE PROFILE PICTURE</a></p>
 					</div>
 				</div>
 
@@ -65,6 +71,19 @@
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
-
+			<script>
+				function downloadCanvas(link, canvasId, filename) {
+					link.href = document.getElementById(canvasId).toDataURL();
+					link.download = filename;
+				}
+				
+				/** 
+				* The event handler for the link's onclick event. We give THIS as a
+				* parameter (=the link element), ID of the canvas and a filename.
+				*/
+				document.getElementById('download').addEventListener('click', function() {
+					downloadCanvas(this, 'canvas', 'test.png');
+				}, false);
+			</script>
 	</body>
 </html>
