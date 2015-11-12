@@ -2725,10 +2725,12 @@ img.profile {
 .profile-content {
 	width: 100%;
 	background-color: #DDDDDD;
-	color: #555555;
+	color: #333333;
 	display: inline-block;
 	border-radius: 20px;
 	padding: 20px;
+	font-size: 1.15em;
+	line-height: 1.5;
 }
 
 .profile-content > p
