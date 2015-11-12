@@ -56,7 +56,7 @@
 					<section id="intro" class="container">
 						<p class="style1">So in case you were wondering what this is all about ...</p>
 						<p class="style2">
-							Right now, we’re on campus at unique moment where sexual assault, social spaces, and mental health are all being talked about at the same time, and <strong>people want change.</strong>
+							Right now, we’re on campus at a unique moment where sexual assault, social spaces, and mental health are all being talked about at the same time, and <strong>people want change.</strong>
 						</p>
 						<p class="style3"></p>
 						<ul class="actions">
